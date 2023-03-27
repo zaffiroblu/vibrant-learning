@@ -14,6 +14,14 @@
 	--purple-1: rgb(39, 4, 65);
 	--purple-2: rgb(105, 47, 96, 0.9);
 	--purple-3: rgb(105, 47, 96);
+	--purple-4: linear-gradient(
+		to left,
+		#270441,
+		#2a0446,
+		#2c054a,
+		#2f054f,
+		#320654
+	);
 	--header-max-w-575: calc(3vw + 3vh);
 	--header-min-w-576: calc(4vw + 4vh);
 	--header-min-w-768: calc(4.2vw + 4vh);
@@ -582,7 +590,7 @@ div#cover-section-content {
 	justify-content: space-around;
 	align-items: center;
 	flex-wrap: wrap-reverse;
-	background-color: var(--purple-1);
+	background-image: var(--purple-4);
 	padding-bottom: 3rem;
 }
 
@@ -762,7 +770,7 @@ div#cover-section-content {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	background-color: var(--purple-1);
+	background-image: var(--purple-4);
 	padding-bottom: 2rem;
 }
 
@@ -1056,7 +1064,7 @@ div#cover-section-content {
 /*_*_*_*_*_*_*_*_*_*_Projects Section_*_*_*_*_*_*_*_*_*_*_*_*_*/
 
 #projects {
-	background-color: var(--purple-1);
+	background-image: var(--purple-4);
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
